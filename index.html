@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Prediction</title>
+</head>
+<body>
+    <div class="card">
+        <h2>Prediction</h2>
+
+        <!-- Input field with label -->
+        <label class="input">
+            <span class="input__label">Enter Prediction Input Peer To Peer For Lender</span> <!-- Label di atas input -->
+            <input class="input__field" type="text" id="predictionInput" placeholder=" ">
+        </label>
+
+        <label class="input">
+            <span class="input__label">Enter Prediction Input</span> <!-- Label di atas input -->
+            <input class="input__field" type="text" id="predictionInput" placeholder=" ">
+        </label>
+
+        <label class="input">
+            <span class="input__label">Enter Prediction Input</span> <!-- Label di atas input -->
+            <input class="input__field" type="text" id="predictionInput" placeholder=" ">
+        </label>
+
+        <div class="result-field">
+            <label>Result:</label><br>
+            <output name="result" for="input1 input2 input3"></output>
+          </div>
+
+
+        <!-- Button group -->
+        <div class="button-group">
+            <button type="submit" onclick="sendData()">Send</button>
+        </div>
+    </div>
+</body>
+<script>
+function sendData() {
+    console.log("masuk");
+}
+</script>
+    
+</html>
